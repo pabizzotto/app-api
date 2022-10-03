@@ -7,4 +7,4 @@ cd $(dirname $SCRIPT_PATH)
 
 echo " "
 echo -e "${COLOR_YELLOW}========> Opening container terminal...${COLOR_CLEAN}"
-docker compose exec app /bin/bash
+docker compose exec app bash
